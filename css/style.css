@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oxanium', cursive;
+}
+
+main {
+    display: inline-block;
+    margin-top: 2%;
+    padding: 15px;
+    position: relative;
+}
+
+body {
+    text-align: center;
+    background: linear-gradient(to bottom, #1034A6, #F62D2D);
+    min-height: 100vh;
+}
+
+.pokedex {
+    width: 100%;
+    max-width: 425px;
+}
+
+.pokemon_gif{
+    position: absolute;
+    bottom: 55%;
+    left: 50%;
+    transform: translate(-63%, 0);
+    height: 15%;
+}
+
+.pokemon_data{
+    position: absolute;
+    font-weight: 600;
+    color: #aaa;
+    top: 54.5%;
+    right: 27%;
+    font-size: clamp(5px, 5vw, 20px);
+}
+
+.pokemon_name{
+    color: #3a444d;
+    text-transform: capitalize;
+}
+
+.form {
+    position: absolute;
+    width: 67%;
+    top: 68%;
+    left: 14.5%;
+}
+
+.input_search {
+    width: 100%;
+    padding: 1.8%;
+    outline: none;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: clamp(8px, 5vw, 1rem);
+    box-shadow: -3px 4px 10px #888, -5px 7px 0 #333;
+}
+
+.pokemon_moves{
+    display: flex;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    position: absolute;
+    bottom: 14%;
+    left: 60%;
+    width: 65%;
+    transform: translate(-57%, 0);
+    display: flex;
+    gap: 15px
+}
+
+.pokemon_type{
+    white-space: nowrap;
+    position: absolute;
+    bottom: 33.5%;
+    left: 98%;
+    width: 55%;
+    transform: translate(-57%, 0);
+    display: flex;
+    gap: 10px
+}
+
+.pokemon_type .pokemon_type_0 {
+    width: 25%;
+    padding: 1%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: clamp(4x, 4vw, 1rem);
+    font-weight: 600;
+    color: #444;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+    background-color: #fff; 
+}
+
+
+
+.pokemon_moves .pokemon_move_0,.pokemon_move_1, .pokemon_move_2, .pokemon_move_3  {
+    width: 35%;
+    padding: 1%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: clamp(4x, 4vw, 1rem);
+    font-weight: 600;
+    color: #444;
+    background-color: #fff;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+}
+
+
+.buttons {
+    white-space: nowrap;
+    position: absolute;
+    bottom: 7.5%;
+    left: 49%;
+    width: 30%;
+    transform: translate(-57%, 0);
+    display: flex;
+    gap: 20px
+}
+
+.button {
+    width: 50%;
+    padding: 2%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: clamp(8px, 5vw, 1rem);
+    font-weight: 600;
+    color: #fff;
+    background-color: #444;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+}
+
+.button:active {
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
+}
