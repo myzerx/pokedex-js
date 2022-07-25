@@ -55,8 +55,8 @@ body {
 }
 
 .input_search {
-    width: 100%;
-    padding: 1.8%;
+    width: 88%;
+    padding: 1.2%;
     outline: none;
     border: 2px solid #333;
     border-radius: 5px;
@@ -71,7 +71,7 @@ body {
     flex-wrap: wrap;
     white-space: nowrap;
     position: absolute;
-    bottom: 14%;
+    bottom: 13.8%;
     left: 60%;
     width: 65%;
     transform: translate(-57%, 0);
@@ -106,7 +106,7 @@ body {
 
 .pokemon_moves .pokemon_move_0,.pokemon_move_1, .pokemon_move_2, .pokemon_move_3  {
     width: 35%;
-    padding: 1%;
+    padding: 0.5%;
     border: 2px solid #000;
     border-radius: 5px;
     font-size: clamp(4x, 4vw, 1rem);
